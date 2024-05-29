@@ -1,0 +1,93 @@
+@media (max-width: 992px) {
+  .header .offcanvas-body {
+    background-color: var(--dark);
+  }
+
+  .banner-section .banner-caption {
+    padding: 65px 10px;
+    color: var(--white);
+  }
+
+  .testimonial-section .testimonial-content {
+    margin: 10px;
+  }
+
+  .explore-section .explore-content {
+    margin: 0;
+  }
+
+  .our-collection,
+  .discover-fashion,
+  .explore-section {
+    min-height: 350px;
+    background-position: center;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .search-container {
+    display: none;
+  }
+
+
+  .our-collection .collection-image img {
+    display: none;
+  }
+
+  .discover-fashion .discover-item .discover-image {
+    display: none;
+  }
+
+  .work-office .work-image {
+    display: none;
+  }
+
+  .our-collection .collection-content h2,
+  .work-office .work-content h2,
+  .banner-section .banner-caption h1,
+  .discover-fashion .discover-content h2,
+  .explore-section .explore-content h2 {
+    font-size: 40px;
+  }
+
+
+  .testimonial-section .testimonial-content P {
+    font-size: 24px;
+  }
+
+
+}
+
+
+@media (max-width: 476px) {
+
+  .our-collection .collection-content h2,
+  .work-office .work-content h2,
+  .discover-fashion .discover-content h2,
+  .explore-section .explore-content h2 {
+    font-size: 30px;
+    margin: 0;
+  }
+
+  .banner-section .banner-caption h1 {
+    font-size: 36px;
+  }
+
+  .discover-fashion .discover-content {
+    padding-left: 15px;
+  }
+
+  .testimonial-section .testimonial-content P {
+    font-size: 18px;
+  }
+
+  .explore-section .explore-content p,
+  .discover-fashion .discover-content p {
+    padding: 15px 0px;
+  }
+
+  .our-collection .collection-link {
+    margin-top: 35px;
+  }
+}
