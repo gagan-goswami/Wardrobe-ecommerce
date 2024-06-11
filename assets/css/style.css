@@ -442,6 +442,7 @@ a:hover {
   background-color: var(--white);
   padding: 10px;
   border-radius: 10px;
+  color: var(--dark);
 }
 
 .Popular-prodduct #second1,
@@ -1138,7 +1139,7 @@ a:hover {
 
 
 .footer-section {
-  background-color: var(--white);
+  background-color: #f5f5f5;
   padding-top: 90px;
 }
 
@@ -1208,4 +1209,89 @@ a:hover {
   z-index: 9999;
   margin-bottom: 10px;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+
+
+/*================================*/
+/*======== shop-page-style ========*/
+/*======== breadcrumb =============*/
+/*================================*/
+
+.about-navbar {
+  background-color: var(--dark);
+}
+
+.breadcrumb-section {
+  background: url(../images/bg-10.jpg);
+  background-size: cover;
+  height: 400px;
+  padding: 50px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.breadcrumb-section::before {
+  content: '';
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.644);
+  z-index: -1;
+  inset: 0;
+}
+
+.breadcrumb-section .breadcrumb {
+  justify-content: center;
+}
+
+.breadcrumb-section span {
+  font-size: 70px;
+  color: var(--white);
+  font-weight: 600;
+}
+
+.breadcrumb-section li,
+a {
+  font-size: 20px;
+  color: var(--white);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+  float: left;
+  padding-right: var(--bs-breadcrumb-item-padding-x);
+  color: var(--white);
+  content: "\f101";
+  font-family: "Font Awesome 5 Free"
+}
+
+/*================================*/
+/*======== product-section =======*/
+/*================================*/
+
+.product {
+  padding: 90px 0px;
+  background-color: var(--white);
+}
+
+.product .product-category {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 45px;
+}
+
+.product .orderby {
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.product .category p {
+  font-size: 16px;
+  color: var(--grey);
+  font-weight: 500;
 }
