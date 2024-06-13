@@ -22,14 +22,20 @@
     min-height: 350px;
     background-position: center;
   }
-}
 
+  .getintouch-section .section-title {
+    margin: 0px 0px 45px 0px;
+  }
+
+  .getintouch-section .section-title h2 {
+    font-size: 30px;
+  }
+}
 
 @media (max-width: 768px) {
   .search-container {
     display: none;
   }
-
 
   .our-collection .collection-image img {
     display: none;
@@ -51,14 +57,10 @@
     font-size: 40px;
   }
 
-
   .testimonial-section .testimonial-content P {
     font-size: 24px;
   }
-
-
 }
-
 
 @media (max-width: 476px) {
 
@@ -66,12 +68,12 @@
   .work-office .work-content h2,
   .discover-fashion .discover-content h2,
   .explore-section .explore-content h2 {
-    font-size: 30px;
+    font-size: 24px;
     margin: 0;
   }
 
   .banner-section .banner-caption h1 {
-    font-size: 36px;
+    font-size: 30px;
   }
 
   .discover-fashion .discover-content {
@@ -89,5 +91,28 @@
 
   .our-collection .collection-link {
     margin-top: 35px;
+  }
+
+  .getintouch-section .section-title h2,
+  .Popular-prodduct .section-title h2,
+  .new-product .section-title h2 {
+    font-size: 22px;
+  }
+
+  .Quality-section h2,
+  .Sustanability h2 {
+    font-size: 24px;
+  }
+
+  .breadcrumb-section span {
+    font-size: 40px;
+  }
+
+  .customer-approch h2 {
+    font-size: 24px;
+  }
+
+  .product .category p {
+    margin-bottom: 20px;
   }
 }
